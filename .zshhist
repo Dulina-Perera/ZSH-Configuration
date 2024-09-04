@@ -1,0 +1,1146 @@
+flatpak run com.mattjakeman.ExtensionManager
+cd Installation\ Scripts
+cd ../yay
+stat PKGBUILD
+echo "$(< PKGBUILD)"
+id --help
+id --user
+su
+sudo --help
+sudo --list
+ls --help
+ls -l PKGBUILD
+pacman -Sy libxau libxi libxss libxtst libxcursor libxcomposite libxdamage libxfixes libxrandr libxrender mesa-libgl alsa-lib libglvnd
+sudo pacman -Sy libxau libxi libxss libxtst libxcursor libxcomposite libxdamage libxfixes libxrandr libxrender mesa-libgl alsa-lib libglvnd
+cd ../Installation\ Scripts
+curl --help
+curl --remote-name https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
+bash Anaconda3-2024.06-1-Linux-x86_64.sh
+nano ../../.zshrc
+nano .zshhist
+nano .zsh_history
+rm .zsh_history
+nano .bashrc
+eval "$(/home/pyrokryos/anaconda3/bin/conda shell.zsh hook)"
+conda create --name semantic-structure-extraction --python=3.8
+conda create --name semantic-structure-extraction python=3.8
+pip install hdbscan
+cuda --version
+pip install bertopic
+yay --sync --search nvm
+yay --sync nvm
+nvm install --lts
+nvm install
+nvm install node
+nvm list
+nvm use 20.15.0
+npm
+nvm use 22.4.0
+npm install -g @angular/cli
+cd /etc/zsh
+ls --all
+ls -ah
+ls -ahl
+mkdir zsh
+mv ../.zshrc zsh
+mv ../.zshhist zsh
+cd zsh
+vim .zshhist
+sudo vim /etc/zsh/.zshenv
+vim.zshrc
+nano .zshrc
+conda
+echo $ZDORDIR
+vim /etc/zsh/zshenv
+sudo vim /etc/zsh/zshenv
+sudo pacman --refresh --sync nerd-fonts
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZDOTDIR/powerlevel10k
+mkdir plugins
+mv powerlevel10k plugins
+cd plugins/powerlevel10k
+echo 'source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme' >> $ZDOTDIR/.zshrc
+man grep
+cd $ZDOTDIR
+ls -a
+touch aliasrc
+sudo pacman --refresh --sync tmux
+man ls
+touch optionrc
+vim optionrc
+vim zshrc
+history
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/plugins/zsh-autosuggestions
+pacman --refresh --sync tree
+sudo pacman --refresh --sync tree
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting ~/.config/zsh/plugins/fast-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.config/zsh/plugins
+git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.config/zsh/plugins/zsh-history-substring-search
+ls plugins
+vim aliasrc
+source .zshrc
+git clone https://github.com/jeffreytse/zsh-vi-mode.git ~/.config/zsh/plugins/zsh-vi-mode
+echo $ZDOTDIR
+vim .zshrc
+clear && source .zshrc
+neofetch
+cd .. && mkdir kitty
+cd kitty
+touch kitty.conf
+source kitty.conf
+cd .config/kitty
+vim kitty.conf
+nano /proc/sys/kernel/sysrq
+cd Semantic-Structure-Extraction/BERTopic-Pipeline
+python default.py
+git commit --help
+git commit --date="2024-07-06" --message="BERTopic-Pipeline: Learnt how the default BERTopic pipeline works."
+sudo pacman --refresh --sync github-cli
+gh --help
+gh auth --help
+gh auth login
+gh extension --help
+gh extension browse
+gh extension install --help
+gh extension install github/gh-copilot
+mkdir Clean-Text
+cd Clean-Text
+sudo pacman --refresh --sync nmap
+ping 192.168.1.3
+man nmap
+gh copilot explain "nmap -sP 10.7.1.0/24"
+nmap -sP 192.168.1.0/24
+gh copilot explain "sudo nmap -sT -p 80,443 10.7.1.0/24"
+nmap --help
+nmap -sT -p 80,443 192.168.1.0/24
+nmap -sS -p 80,443 192.168.1.0/24
+sudo nmap -sS -p 80,443 192.168.1.0/24
+sudo nmap -sT 192.168.1.3
+sudo nmap -sT 192.168.1.4
+gh copilot explain "sudo nmap -Pn 10.7.1.126"
+sudo nmap -Pn 192.168.1.10
+sudo pacman --refresh --sync wireshark
+yay --sync --search wireshark
+yay --sync wireshark-qt
+sudo wireshark
+sudo nmap -sT 192.168.1.10
+sudo nmap -sP
+sudo nmap -sP 192.168.1.0/24
+sudo nmap -sT 192.168.1.1
+sudo nmap -sT -p 22 192.168.1.1
+sudo nmap -sP -O 192.168.1.0/24
+nano aliasrc
+sudo pacman --refresh --sync docker
+sudo systemctl status dockerd
+docker
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
+sudo systemctl disable docker.service
+sudo systemctl stop docker.service
+sudo systemctl enable docker.socket
+sudo systemctl status docker.socket
+sudo systemctl status docker.service
+docker info
+sudo docker info
+gh copilot explain "docker run -it --rm archlinux bash -c 'echo hello world'"
+docker --help
+bash --help
+gh copilot suggest "How can I add a user to the docker user group, re-login and restart docker.service?"
+gh copilot explain "su - <username>"
+man usermod
+sudo usermod --append --groups docker pyrokryos
+gh copilot explain "How to check the groups a user belongs to?"
+groups pyrokryos
+su --login pyrokryos
+docker run -it --rm archlinux bash -c "echo hello world"
+flatpak install flathub com.spotify.Client
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub us.zoom.Zoom
+flatpak install flathub com.getpostman.Postman
+flatpak install flathub io.github.mimbrero.WhatsAppDesktop
+flatpak install flathub md.obsidian.Obsidian
+sudo pacman --refresh --sync docker-compose
+yay --sync --search docker-desktop
+yay --sync docker-desktop
+sudo nmap -O 192.168.1.3
+sudo nmap -Pn -O 192.168.1.10
+sudo nmap -O 192.168.1.10
+neofetch --help
+cd .config/nvim
+cd .config
+touch constants.py
+touch clean.py
+conda deactivate
+conda activate semantic-structure-extraction
+pip install pdfminer.six
+mv ../Pdf-Content-Extraction/Documents/*.txt .
+pip install clean-text
+pip install clean-text[gpl]
+mv Slides.txt input.txt
+git commit --date="2024-07-07" --message="Clean-Text: The text cleaning library `clean-text` is imperfect. Have to implement that functionality on my own."
+gh copilot suggest "How can I edit my previous git commit?"
+pwd
+/bin/python /home/pyrokryos/.vscode/extensions/ms-python.python-2024.8.1/python_files/printEnvVariablesToFile.py /home/pyrokryos/.vscode/extensions/ms-python.python-2024.8.1/python_files/deactivate/zsh/envVars.txt
+cd Semantic-Structure-Extraction/Clean-Text
+python clean.py
+mv Semantic-Structure-Extraction semantic-structure-extraction
+cd semantic-structure-extraction
+touch text.txt
+touch main.py
+cd LLVM-Projects
+clang --version
+mkdir LLVM-IR
+mv LLVM-Projects LLVM
+cd LLVM
+cd LLVM-IR
+touch main.c
+code main.c
+clang -S -emit-llvm callee.c --output callee.ll
+clang -S -emit-llvm callee.c --output callee.ll && code callee.ll
+clang --help | less
+gh copilot suggest "I want to select the description for the -disable-O0-optnone in clang. How to use grep for this?"
+clang --help | grep -A2 "-emit-llvm"
+clang --help | grep -A0 "-emit-llvm"
+clang --help | grep -A0 "-disable-O0-optnone"
+clang --help | grep -A0 "-disable-O0-optnone" -
+clang --help | grep -A0 "\-disable-O0-optnone" -
+clang --help | grep -A0 "\-emit-llvm"
+clang --help | grep -A3 "\-disable-O0-optnone"
+man clang | grep -A3 "\-disable-O0-optnone"
+man clang
+clang -Xclang -disable-O0-optnone -S -emit-llvm callee.c --output callee.ll && code callee.ll
+opt
+sudo pacman --refresh --sync llc
+yay --sync --search llc
+yay --sync --search clangd
+yay --sync --search clang-opt
+yay --sync --search clangd-opt
+yay --sync --search clangd-llc
+yay --sync --search clang-llc
+sudo pacman -R clang
+clang
+yay --sync --search clang
+yay --sync --search llvm
+llc
+llc --help
+clang --help
+yay --sync llvm
+sudo pacman --refresh --sync clang
+opt --help | grep -A0 "/-mem2reg"
+man opt
+opt --help | grep -A0 "/-S"
+opt --help | grep -A0 "/S"
+opt --help
+opt -S -mem2reg callee.ll -o callee_opt.ll
+opt -S -passes=mem2reg callee.ll -o callee_opt.ll
+code callee_opt.ll
+gh copilot explain "opt -S -passes=mem2reg callee.ll -o callee_opt.ll"
+llvm-as callee_opt.ll -o callee_opt.bc
+llc callee_opt.bc -o callee_opt.x86
+echo $LINUX
+$LINUX/as callee_opt.x86 -o callee_opt.o
+which as
+$(which as)
+$(which as) callee_opt.x86 -o callee_opt.o
+git commit -m "Obtained a basic understanding of the LLVM IR."
+sudo pacman -R ntfs-3g
+yay --sync --search ntfs
+yay --sync ntfs-3g ntfs3-dkms ntfsfixboot
+yay --sync --search julia
+yay --sync julia-bin juliaup
+yay --sync julia-bin
+yay --sync juliaup
+sudo echo "1" > /proc/sys/kernel/sysrq
+ls /proc/sys
+ls /proc/sys/kernel
+ls /etc/sysctl.d
+touch /etc/sysctl.d/99-sysctl.conf
+ls /usr/lib/sysctl.d
+sudo nano /usr/lib/sysctl.d/50-default.conf
+sudo rm /etc/sysctl.d/99-sysctl.conf
+sudo touch /etc/sysctl.d/99-sysctl.conf
+sudo nano /etc/sysctl.d/99-sysctl.conf
+sudo nano /proc/sys/kernel/sysrq
+cat /proc/sys/kernel/sysrq
+rm Julia-Tutorial/*
+rm -r Julia-Tutorial/*
+rm -rf Julia-Tutorial/*
+cd Julia-Tutorial
+ls .git
+touch test.jl
+julia test.jl
+pacman --refresh --sync juliaup
+sudo pacman --refresh --sync juliaup
+yay --sync --search juliaup
+yay --sync juliaup-bin
+julia --help
+juliaup --help
+julia
+julia --help | grep -A1 "-p"
+julia --help | grep -A1 "/-p"
+julia --help | grep -A1 "\-p"
+julia --help | grep -A1 "\-e"
+julia --eval 'using Pkg; Pkg.generate("Test-Env")'
+julia --eval 'using Pkg; Pkg.generate("testenv")'
+rm -rf testenv
+julia --eval 'using Pkg; Pkg.generate("Env")'
+cd Env
+julia --help | grep -A1 "\--project"
+mv Env FirstProject
+cd FirstProject
+julia --project=.
+touch run.jl
+julia run.jl
+git commit -m "Learnt how to work with environments and got acquainted with dataframes."
+mkdir ML-with-Julia
+mkdir SvelteKit
+cd SvelteKit
+which nvm
+ls /usr/share/nvm
+source /usr/share/nvm/init-nvm.sh
+nvm
+nvm --help | grep -A1 "\ls"
+nvm ls
+npm --version
+rm -r SvelteKit
+npm create svelte@latest with-svelte
+tree
+gh copilot explain "npm run dev -- --open"
+npm install
+npm fund
+npm install --help
+npm install --dev typescript-svelte-plugin
+npm install --include=dev typescript-svelte-plugin
+npm install --save-dev typescript-svelte-plugin
+npm install --save-dev tailwindcss postcss autoprefixer
+gh copilot explain "npx tailwindcss init -p"
+npx tailwindcss init --postcss
+cd ML-with-Julia
+git init && git add --all && git commit -m "Initial commit"
+cd with-svelte
+touch src/app.css
+touch "src/routes/+;ayout.svelte"
+touch .editorconfig
+mkdir src/lib/components/svg
+mkdir --parents src/lib/components/svg
+touch src/lib/components/svg/Logo.svelte
+git commit -m "Added a logo."
+gh repo create ML-with-Julia --description="A comprehensive guide and educational resource for anyone looking to delve into the world of Machine Learning using Julia" --private --source=. --push --remote=github
+cargo install license-generator
+gh copilot suggest "How to add a path to PATH in a posix-compliant shell?"
+clear && source $XDG_CONFIG_HOME/zsh/.zshrc
+echo $PATH
+license-generator --help
+license-generator GPL-3.0 --author "Pyrokryos <dulina.perera@outlook.com>" --project "ML-with-Julia" --year 2024
+license-generator GPL-3 --author "Pyrokryos <dulina.perera@outlook.com>" --project "ML-with-Julia" --year 2024
+git commit -m "Added a GNU GPLv3.0 license."
+man lsblk
+lsblk /dev/sdb
+lsblk --fs --paths /dev/sdb
+sudo umount /dev/sdb1
+lsblk --fs /dev/sdb
+sudo umount /dev/sda1
+wipefs --help
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+sudo fdisk --list /dev/sda
+cryptsetup luksFormat /dev/sda1
+sudo cryptsetup luksFormat /dev/sda1
+lsblk --fs /dev/sda
+cryptsetup open /dev/sda1 "Tails_Linux"
+sudo cryptsetup open /dev/sda1 "Tails_Linux"
+mkfs.ext4 /dev/mapper/Tails_Linux
+sudo mkfs.ext4 /dev/mapper/Tails_Linux
+sudo mount /dev/mapper/Tails_Linux /mnt/
+sync --help
+umount /mnt
+sudo umount /mnt
+sudo cryptsetup close "Tails_Linux"
+mv ../Downloads/tails-amd64-6.4.img .
+dd
+dd --help
+lsblk
+whoami
+ls /
+sudo mount /dev/sdb /mnt
+tail --help | grep -A3 "\-n"
+sudo mount /dev/sdc /mnt
+sudo ntfs-3g /dev/sdc /mnt
+sudo ntfs-3g /dev/sdc1 /mnt
+ntfs-3g --help
+nano $XDG_CONFIG_HOME/zsh/.zshrc
+source $XDG_CONFIG_HOME/zsh/.zshrc
+cd ML-with-Julia/with-svelte
+touch src/lib/components/svg/Youtube.svelte
+touch src/lib/components/svg/Github.svelte
+touch src/lib/components/IconLink.svelte
+code src/lib/components/IconLink.svelte
+git commit -m "Added youtube and github links."
+mkdir src/lib/stores
+touch src/lib/stores/darkmode.ts
+mkdir src/types
+touch src/types/window.d.ts
+touch src/lib/components/ThemeInitializer.svelte
+touch src/lib/components/svg/Sun.svelte
+touch src/lib/components/svg/Moon.svelte
+touch src/lib/components/DarkModeButton.svelte
+git commit -m "Added a button to toggle between light and dark modes."
+touch src/lib/components/MainHeader.svelte
+git commit -m "Defined animations for the toggle-mode button."
+mkdir src/posts
+mv ~/Downloads/terminal-setup.md src/posts
+mv ~/Downloads/tmux-setup.md src/posts
+mv ~/Downloads/vim-essentials-cheatsheet.md src/posts
+mv ~/Downloads/yabai-setup.md src/posts
+mkdir static/post-images
+mv ~/Downloads/vim-essentials-cheatsheet.jpg static/post-images
+mv ~/Downloads/terminal-setup.jpg static/post-images
+mv ~/Downloads/tmux-setup.jpg static/post-images
+mv ~/Downloads/yabai-setup.jpg static/post-images
+du --human-readable --summarize static
+git commit -m "Added markdown posts and images."
+npm install --save-dev mdsvex
+mkdir --parents "src/routes/blog/posts/[slug]"
+touch "src/routes/blog/posts/[slug]/page.svelte"
+touch "src/routes/blog/posts/[slug]/page.ts"
+touch src/types/index.ts\
+
+git commit -m "Rendered markdown with `mdsvex` package."
+npm install --save-dev @tailwindcss/typography
+git commit -m "Styled markdown with ."
+touch "src/routes/blog/posts/[slug]/prism-night-owl.css"
+git commit -m "Added support for syntax highlighting of the code snippets."
+touch src/lib/components/CopyCodeButton.svelte
+touch src/lib/components/svg/CopyIcon.svelte
+touch src/lib/components/svg/CheckIcon.svelte
+touch src/lib/components/CopyCodeInjector.svelte
+npm install --save-dev @tailwindcss/aspect-ratio
+git commit -m "Implemented a button to copy code from a code cell."
+touch src/lib/components/PostHeader.svelte
+mkdir src/lib/utils
+touch src/lib/utils/dates.ts
+git commit -m "Enhanced the post headers using metadata from the markdown documents."
+sudo pacman --refresh --sync lsusb
+sudo pacman --refresh --sync usbutils
+lsusb
+cd ../..
+mkdir Three-js-Tutorials
+mkdir Getting-Started
+npm init --help
+nvm current
+npm install --global bun
+bun init
+cd ../../Advanced-Javascript
+mkdir Module-Bundlers
+cd Module-Bundlers
+touch index.js
+mv index.js src
+bun init --help
+bun init --yes
+npm install lodash
+mkdir public
+touch public/index.html
+npm install --save-dev webpack webpack-cli
+touch webpack.config.js
+touch src/style.scss
+npm install --save-dev style-loader css-loader sass-loader
+npm install -g sass
+npm install --save-dev sass
+npm install --save-dev webpack-bundle-analyzer
+npm run build
+npm install --save-dev webpack-dev-server
+npm run dev -- --open
+cd ../../Advanced-Javascript/Module-Bundlers
+npm run dev
+rm -rf /run/media/pyrokryos/KINGSTON/Projects/Self/Advanced-Javascript/.git/index.lock
+git commit -m "Learnt how javascript module bundlers work by taking Webpack as an example."
+sudo pacman --refresh --sync social-engineer-toolkit
+yay --sync --search social-engineer
+yay --sync social-engineer-toolkit
+git clone https://github.com/EricksonAtHome/blackeye.git
+sudo pacman --refresh --sync bat
+bat blackeye.sh
+sudo pacman --refresh --sync jq
+jq --help
+sudo pacman --refresh --sync xsel
+bash blackeye.sh
+touch ngrok-recovery-codes.txt
+nano ngrok-recovery-codes.txt
+./ngrok config add-authtoken 2j1ClNELr0dpzvC1whTaC6NImZ9_7jGR93CHHUFTVTqW5BcSQ
+sudo pacman --refresh --sync ngrok
+sudo bash ./blackeye.sh
+rm -rf blackeye
+git clone https://github.com/thewickedkarma/blackeye-im.git
+cd blackeye
+chmod +x setup.sh
+./setup.sh
+cd Documents
+cd blackeye-im
+./ngrok authtoken 2j1ClNELr0dpzvC1whTaC6NImZ9_7jGR93CHHUFTVTqW5BcSQ
+./blackeye.sh
+rm -rf blackeye-im
+cd Three-js-Tutorials
+cd Getting-Started
+bun add --save-dev parcel
+mkdir script.ts
+rm -r script.ts
+rm ../index.ts
+mv js/script.js js/script.ts
+mv js ts
+bun add three
+npm install --global parcel
+bun start
+rm -rf *
+npm init
+npm init --yes
+mkdir src
+cd src
+touch index.html
+mkdir js
+touch js/script.js
+npm add --save-dev three
+npm add three
+npm add --save-dev parcel
+cd Three-js-Tutorials/Getting-Started
+npm start
+touch .gitignore
+git rm --cached *
+git rm --cached .parcel-cache/*
+git commit -m "Getting-Started: Initial commit"
+gh repo create Three-js-Tutorials --description="My approach to learning 3D web animations" --private --source=. --push --remote=github
+nvidia-smi
+sudo pacman --refresh --sync ntfs-3g
+sudo pacman --refresh --sync ranger
+ranger
+bat --help
+bat --list-themes
+bat --theme="ansi" /etc/fstab
+ls /mnt
+cd /mnt
+mkdir KINGSTON Transcend "SP PHD U3"
+sudo mkdir KINGSTON Transcend "SP PHD U3"
+mkdir SiliconPower
+sudo mkdir SiliconPower
+sudo rm -r SP\ PHD\ U3
+sudo nano /etc/fstab
+systemctl daemon-reload
+ls /mnt/KINGSTON
+ls /mnt/SiliconPower
+ls /mnt/Transcend
+lsblk --fs
+sudo mount --all
+sudo nano /etc/pacman.conf
+sudo vim /etc/pacman.conf
+sudo pacman --refresh --sync --sysupgrade
+sudo pacman --refresh --sync wine wine-gecko wine-mono winetricks
+wine --help
+sudo wine winecfg
+wine winecfg
+ls /root
+sudo ls /root
+sudo ls /root/
+wine canva
+wine Canva
+gh copilot suggest "How to find all apps installed through wine and run them?"
+yay
+yay --sync winegui
+yay --sync --search winegui
+yay --sync winegui-bin
+sudo pacman --refresh --sync pipewire
+sudo pacman --refresh --sync pipewire-audio
+sudo pacman --refresh --sync pipewire-pulse
+sudo pacman --refresh --sync pipewire-alsa
+sudo pacman --refresh --sync pipewire-jack
+sudo pacman --refresh --sync wireplumber
+sudo pacman --refresh --sync rtkit
+sudo pacman --refresh --sync wireplumber rtkit
+diff /usr/share/pipewire/pipewire.conf /etc/pipewire/pipewire.conf
+ls /etc/pipewire
+ls /etc/pipewire/pipewire.conf.d
+cp /usr/share/pipewire/pipewire.conf /etc/pipewire
+sudo cp /usr/share/pipewire/pipewire.conf /etc/pipewire
+sudo nano /etc/pipewire/pipewire.conf
+sysctl --help
+man sysctl
+man systemctl
+wireplumber --help
+systemctl --help
+systemctl --help | grep -A3 "/--user"
+systemctl --help | grep -A3 "/user"
+systemctl --help | grep -A3 "/rescue"
+grep --help
+systemctl --help | grep -A3 "\rescue"
+systemctl --help | grep -A3 "rescue"
+systemctl --help | grep -A3 "user"
+systemctl --help | grep -A3 "restart"
+mkdir -p ~/.config/wireplumber/wireplumber.conf.d
+cd ~/.config/wireplumber/wireplumber.conf.d
+ls /usr/share/wireplumber
+ls /usr/share/wireplumber/wireplumber.conf.d
+ls /usr/share/wireplumber/scripts
+cp /usr/share/wireplumber/wireplumber.conf.d/alsa-vm.conf .
+nano alsa-vm.conf
+mv alsa-vm.conf 50-alsa-config.conf
+cat /sys/module/snd_hda_intel/parameters/power_save
+ls /etc/modprobe.d/
+sudo touch /etc/modprobe.d/audio_diable_powersave.conf
+sudo nano /etc/modprobe.d/audio_diable_powersave.conf
+touch 50-alsa-suspend.conf
+nano 50-alsa-suspend.conf
+systemctl --user restart wireplumber pipewire pipewire-pulse
+cd Python-Projects
+touch custom_decorator.py
+python --version
+python custom_decorator.py
+rm -rf __pycache__
+rm icecream.py
+git commit -m "Learnt how to create a custom decorator in Python."
+cd Data-Science__and__Machine-Learning
+mkdir Hierarchical-Clustering
+cd Hierarchical-Clustering
+touch notebook.ipynb
+conda env list
+conda create --name ds_and_ml python=3.12
+conda activate ds_and_ml
+mv ~/Downloads/Mall_Customers.csv .
+pip install numpy pandas plotly
+pip install ipykernel
+pip install skimpy
+pip install numpy
+pip uninstall numpy==1.26.4
+pip install numpy==2.0.0
+pip uninstall numpy==2.0.0
+pip install numpy==1.26.4
+pip install scipy
+pip install nbformat
+pip install matplotlib
+pip install scikit-learn
+du --human-readable --summarize .
+du --human-readable --summarize Mall_Customers.csv
+cd ../../CS3111-Coursework
+code notebook.ipynb
+ls Lessons
+git add .
+git commit -m "Added supplementary content provided throughout the course."
+git remote show origin
+git remote remove origin
+git remote add github https://github.com/Pyrokryos/CS3111-Coursework.git
+cd ../CS3121-Coursework
+du --human-readable --summarize R-Playground/R\ for\ Data\ Science.pdf
+git restore --staged R-Playground/R\ for\ Data\ Science.pdf
+git commit -m "Added a  rule to stop  files from being tracked."
+git commit --amend
+cd Kaggle
+git log
+git submodule --help
+gh copilot explain "git submodule update --remote --merge"
+git submodule update --remote --merge
+git submodule update
+git add Kaggle CS3111-Coursework CS3121-Coursework
+git add .gitmodules
+git commit -m "Obtained a basic understanding of hierarchical clustering."
+git push github master
+cd Self-Learning
+git status
+cd .config/zsh
+git init
+git add --all
+rm -rf .git
+cp --recursive zsh zsh.bak
+cp --recursive kitty kitty.bak
+cd ~
+git clone --depth=1 https://github.com/prasanthrangan/hyperdots ~/HyDE
+git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/HyDE
+ls
+bat --theme="ansi" custom_apps.lst
+cd ../../semantic-structure-extraction
+ls ..
+cd ..
+mv semantic-structure-extraction Semantic-Structure-Extraction
+cd Semantic-Structure-Extraction/
+nano custom_apps.lst
+Hyprland
+cd HyDE/Scripts
+./install.sh custom_apps.lst
+systemctl status display-manager.service
+systemctl status gdm.service
+systemctl status sddm.service
+clear
+systemctl disable gdm.service
+sudo systemctl disable gdm.service
+sudo systemctl stop gdm.service
+sudo systemctl enable sddm.service
+sudo systemctl start sddm.service
+kitty +list-fonts
+cd ~/.config/kitty
+ls
+nano kitty.conf
+kitty +list-fonts
+nano kitty.conf
+kitty +list-fonts
+nano kitty.conf
+kitty +list-fonts
+nano kitty.conf
+kitty +list-fonts
+nano kitty.conf
+kitty +list-fonts
+whoami
+nano kitty.conf
+cd ~/.config/kitty
+nano kitty.conf
+whoami
+sudo pacman --refresh --sync wireplumber nvm
+sudo pacman --refresh --sync nvm
+yay --sync --search nvm
+yay --sync nvm
+sudo pacman --refresh --sync github-cli
+gh copilot --help
+gh extension install github/gh-copilot
+gh auth login
+whoami
+sudo pacman --refresh --sync zram-generator
+cd /etc/systemd
+ls
+sudo nano zram-generator.conf
+sudo systemctl daemon-reload
+sudo systemctl start systemd-zram-setup@zram0.service
+sudo systemctl status systemd-zram-setup@zram0.service
+nvidia-smi
+kitty +list-fonts
+clear
+cd /mnt/Kingston/Projects
+git clone https://github.com/Dulina-Perera/Artistry.git
+code Artistry
+cd lib/imgui
+makepkg -si
+lsblk
+lsblk -fp
+sudo umount --all
+sudo systemctl daemon-reload
+sudo mount --all
+cd Artistry
+cd lib/imgui
+makepkg -si
+ls
+lsblk
+rm -rf *
+ls
+rm .gitignore
+rm .SRCINFO
+git clone https://aur.archlinux.org/imgui.git
+ls
+mv imgui/* .
+ls
+ls imgui
+mv -r imgui/.git .
+mv imgui/.git .
+mv --help
+ls
+cd ..
+rm -rf imgui
+cd ..
+ls
+lsblk
+clear
+cd /mnt/Kingston/Projects
+ls
+code Artistry
+clear
+ls
+makepkg -si
+cd ..
+ls
+rm -rf imgui
+ls
+cd imgui
+ls
+rm .git
+ls
+man lsof
+cd .git/objects/pack
+ls
+lsof .fuse_hidden000000750000d020
+lsof .fuse_hidden000000750000bae2
+cd Artistry/lib
+git clone https://aur.archlinux.org/imgui.git
+cd imgui
+makepkg -si
+lsblk
+lsblk --fs --paths
+lsblk --fs --paths /dev/sda
+sudo umount /dev/sda1
+sudo wipefs --all /dev/sda
+lsblk
+sudo wipefs --all /dev/sda
+sudo fdisk --list /dev/sda
+sudo nano /etc/fstab
+clear
+lsblk
+lsblk --fs --paths /dev/sdc
+sudo umount /dev/sdc1
+sudo wipefs --all /dev/sdc
+lsblk
+sudo umount /dev/sdc1
+sudo wipefs --all /dev/sdc
+sudo fdisk --list /dev/sdc
+lsblk
+sudo cfdisk /dev/sdc
+sudo fdisk --list /dev/sdc
+sudo mkfs.ext4 -n "Kingston" /dev/sdc1
+lsblk
+sudo umount /dev/sdc1
+sudo wipefs --all /dev/sdc
+sudo cfdisk /dev/sdc
+sudo fdisk /dev/sdc
+sudo mkfs.ext4 -n "Kingston" /dev/sdc1
+lsblk
+lsblk --fs --paths /dev/sdc
+sudo umount /dev/sdc1
+sudo wipefs --all /dev/sdc
+sudo fdisk /dev/sdc
+lsblk --fs --paths /dev/sdc
+sudo fdisk /dev/sdc
+sudo mkfs.ext4 -n "Kingston" /dev/sdc1
+lsblk
+sudo umount /dev/sda1
+sudo wipefs --all /dev/sda
+sudo fdisk --list /dev/sda
+sudo cfdisk /dev/sda
+sudo fdisk --list /dev/sda
+sudo mkfs.ext4 -n "Kingston" /dev/sda1
+lsblk --fs --paths /dev/sda
+sudo umount /dev/sda1
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+lsblk --fs --paths /dev/sda
+sudo mkfs.ext4 -n "Kingston" /dev/sda1
+sudo nano /etc/fstab
+lsblk --fs --paths /dev/sda
+sudo umount /dev/sda1
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+sudo fdisk --list /dev/sda
+sudo mkfs.ext4 -n "Kingston" /dev/sda1
+sudo mkfs.ext4 -f /dev/sda1
+sudo mkfs.ext4 -t Linux /dev/sda1
+sudo mkfs.ext4 /dev/sda1
+lsblk --fs --paths /dev/sda
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+sudo mkfs.ext4 /dev/sda1
+lsblk
+umount /dev/sdb1
+umount /dev/sda1
+sudo fdisk /dev/sda
+sudo mkfs.ext4 -L Kingston -m 1 -b 4096 /dev/sda1
+sudo mkfs.ntfs -L Kingston --fast /dev/sda1
+lsblk
+lsblk --fs --paths /dev/sda
+umount /dev/sda1
+sudo wipefs --all /dev/sda
+lsblk --fs --paths /dev/sda
+sudo wipefs --all /dev/sda
+umount /dev/sda1
+lsblk --fs --paths /dev/sda
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+sudo mkfs.ntfs -L Kingston --fast /dev/sda1
+lsblk
+lsblk --fs --paths /dev/sda
+lsblk
+sudo fdisk /dev/sda
+sudo fdisk --list /dev/sda
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+sudo mkfs.ntfs -L Kingston --fast /dev/sda1
+lsblk
+lsblk --fs --paths /dev/sda
+sudo nano /etc/fstab
+cd /mnt/Kingston/Projects
+code Artistry
+git clone https://github.com/Dulina-Perera/Artistry.git
+code Artistry
+cd lib/imgui
+ls
+makepkg -si
+ls
+sudo pacman --refresh --sync glfw
+ls /usr/include/GLFW
+makepkg -si
+ls
+lsblk
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+lsblk
+sudo wipefs --all /dev/sda
+sudo nano /etc/fstab
+lsblk
+sudo wipefs --all /dev/sda
+lsblk
+sudo umount /dev/sda1
+lsblk
+lsblk --fs --paths /dev/sda
+sudo cfdisk /dev/sda
+lsblk
+sudo umount /dev/sda1
+sudo wipefs --all /dev/sda
+sudo cfdisk /dev/sda
+sudo mkfs.ext4 -L Kingston -m 1 -b 4096 /dev/sda1
+lsblk
+lsblk --fs --paths /dev/sda
+sudo nano /etc/fstab
+lsblk --fs --paths
+chmod +rwx /mnt/Kingston
+sudo chmod +rwx /mnt/Kingston
+ls /mnt
+sudo chmod -R a=rwx /mnt/Kingston
+ls /mnt
+sudo umount --all
+sudo systemctl daemon-reload
+sudo mount --all
+git clone https://github.com/Dulina-Perera/Artistry.git
+cd Artistry/lib
+cd imgui
+ls
+makepkg -si
+cd ..
+cd ../..
+ls
+rm -rf Artistry
+ls
+sudo pacman --refresh --sync vulkan-devel
+sudo pacman --refresh --sync glfw-x11
+sudo pacman --refresh --sync glm
+sudo pacman --refresh --sync shaderc
+glslc
+vkcube
+echo $SHELL
+sudo pacman --refresh --sync vulkan-devel
+vkcube
+nvidia-smi
+git clone https://github.com/Dulina-Perera/Artistry.git
+cd Artistry/lib/imgui
+ls
+makepkg -si
+cd ../
+cd glad
+ls
+zsh glad-setup.zsh
+cd ../..
+make clean && make run
+sudo pacman --refresh --sync spdlog
+sudo pacman --refresh --sync fmt
+make clean && make run
+cd ~/Documents
+ls
+cd Arch-Linux/Installation-Scripts
+ls
+zsh Anaconda3-2024.06-1-Linux-x86_64.sh
+ls ~/anaconda3
+cd ..
+rm -rf ~/anaconda3
+zsh Anaconda3-2024.06-1-Linux-x86_64.sh
+ls
+cd Installation-Scripts
+zsh Anaconda3-2024.06-1-Linux-x86_64.sh
+./Anaconda3-2024.06-1-Linux-x86_64.sh
+cd ~/.config/zsh/
+nano .zshrc
+source $XDG_CONFIG_HOME/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+git clone https://github.com/Dulina-Perera/CS3513-Coursework.git
+code CS3513-Coursework/RPAL-Interpreter
+./myrpal
+make clean && make run
+make clean && make test
+git log
+git branch feature/test
+git checkout feature/test
+git log
+git reset --hard 484b7a655541252d85ac229150fee44ac9d66332
+cd C
+./myrpal
+make clean && make test
+ls
+rm -rf CS3513-Coursework
+code 210465P
+ls
+./myrpal
+make clean && make test
+./eval_tests.sh
+git status
+git log
+make 
+make clean
+make
+./myrpal
+./eval_tests.sh
+./myrpal -lex tests/2.rpal
+git clone https://github.com/Dulina-Perera/CS3513-Coursework.git
+code CS3513-Coursework
+git log
+git reset --hard 2d07b05c2ee77ea89b41360f585b8b62a8bba337
+cd RPAL-Interpreter/C
+./myrpal
+ls
+make clean
+make
+./myrpal
+make clean && ./myrpal
+make clean && make run
+make clean && make test
+./myrpal tests/2.rpal
+./myrpal tests/3.rpal
+make clean && make
+git clone https://github.com/Dulina-Perera/CS3513-Coursework.git
+code CS3513-Coursework
+code 210465P
+git clone https://github.com/Dulina-Perera/CS3513-Coursework.git
+code CS3513-Coursework
+sudo nano /etc/fstab
+cd Documents
+ls
+cd CS3513-Coursework
+ls
+cd RPAL-Interpreter
+ls
+cd C
+ls
+code .
+whoami
+sudo nano /etc/fstab
+clear
+cd /mnt/Kingston/Projects
+ls
+git clone https://github.com/Dulina-Perera/RoadScan.git
+code RoadScan
+conda create --name roadscan
+conda activate roadscan
+conda install pip
+pip install python-opencv
+pip install opencv-python
+pip install uv
+uv pip install opencv-python
+n/python /home/dulina-perera/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariablesToFile.py /home/dulina-perera/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh/envVars.txt
+uv pip install ultralytics
+git clone https://github.com/Dulina-Perera/TopicNet.git
+git clone https://github.com/Dulina-Perera/Cricket-Data-Analysis.git
+git clone https://github.com/Dulina-Perera/CUDA-Programming.git
+git clone https://github.com/Dulina-Perera/ML-with-Julia.git
+uv pip install easyocr
+flatpak install flathub us.zoom.Zoom
+python main.py
+cd lib/sort
+ls
+cd ..
+rmdir sort
+flatpak install flathub com.mattjakeman.ExtensionManager
+git clone https://github.com/abewley/sort.git
+flatpak install flathub com.mattjakeman.ExtensionManager
+python main.py
+cd ..
+python main.py
+uv pip install filterpy
+python main.py
+flatpak install flathub com.mattjakeman.ExtensionManager
+clear
+whoami
+cd /mnt/Kingston/Projects
+cd ../7.\ Semester\ 5/MA3030\ -\ Operational\ Research
+mkdir 1.\ Linear\ Programming
+cd 1.\ Linear\ Programming
+touch simplex_algorithm.ipynb
+code simplex_algorithm.ipynb
+conda create --name operational_research
+conda activate operational_research
+kitty +list-fonts
+conda install pip
+pip install uv
+code simplex_algorithm.ipynb
+conda activate operational_research
+clear
+pip install uv
+uv pip install numpy
+cd /mnt/Kingston/Projects
+code Artistry
+mkdir src/shaders
+touch src/shaders/shader.vert
+clear
+glslc --help
+glslc --version
+touch src/shaders/shader.frag
+code src/shaders/shader.frag
+touch src/shader_manager.cc
+touch include/shader_manager.hh
+code include/shader_manager.hh
+code src/shader_manager.cc
+make clean && make run
+ls
+./artistry
+make clean
+make
+make run
+./artistry
+make clean
+make run
+git add --all
+git log
+git commit --date="2024-07-21" --message="Wrote shader programs to change the color of the circles."
+git push github master
+git remote show origin
+git remote add github https://github.com/Dulina-Perera/Artistry.git
+git remote remove origin
+git push github master
+sudo pacman --refresh --sync --sysupgrade
+cd ~/.config/zsh/
+ls
+cd plugins
+ls
+rm -rf powerlevel10k
+ls
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZDOTDIR/plugins/powerlevel10k
+ls
+rm -rf fast-syntax-highlighting
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting
+ls
+rm -rf zsh-autosuggestions
+ls
+git clone https://github.com/zsh-users/zsh-autosuggestions
+ls
+git vlone https://github.com/zsh-users/zsh-history-substring-search.git
+rm -rf zsh-history-substring-search
+git clone https://github.com/zsh-users/zsh-history-substring-search.git
+ls
+rm -rf zsh-vi-mode
+git clone https://github.com/jeffreytse/zsh-vi-mode.git
+ls
+compaudit
+cd ~/.config/zsh/
+rmdir plugins
+ls
+mkdir plugins
+cd plugins
+ls
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZDOTDIR/plugins/powerlevel10k
+git clone https://github.com/jeffreytse/zsh-vi-mode.git
+git clone https://github.com/zsh-users/zsh-history-substring-search.git
+git clone https://github.com/zsh-users/zsh-autosuggestions
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting
+ls
+whoami
+cd ~/.config/zsh/
+git init
+code .
+gh copilot suggest "In the current directory I have a plugins directory. How can I add a repository in that directory as a submodule to the git repository in the current directory?"
+git submodule add https://github.com/romkatv/powerlevel10k.git plugins/
+git submodule add https://github.com/romkatv/powerlevel10k.git plugins/powerlevel10k
+git submodule add https://github.com/jeffreytse/zsh-vi-mode.git plugins/zsh-vi-mode
+ls
+git submodule add https://github.com/zsh-users/zsh-history-substring-search.git plugins/zsh-history-substring-search
+git submodule add https://github.com/zsh-users/zsh-autosuggestions plugins/zsh-autosuggestions
+git submodule add https://github.com/zdharma-continuum/fast-syntax-highlighting plugins/fast-syntax-highlighting
+git add --all
